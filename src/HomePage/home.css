@@ -1,0 +1,53 @@
+.dialog {
+    position: fixed;
+    bottom  : 0;
+    right   : 15px;
+    border  : 3px solid #f1f1f1;
+    z-index : 9;
+}
+.dialog.false {
+    display: none;
+}
+.true {
+    display: block;
+}
+.form-container {
+    max-width       : 300px;
+    padding         : 10px;
+    background-color: white;
+}
+input {
+    width     : 100%;
+    padding   : 15px;
+    margin    : 5px 0 22px 0;
+    border    : none;
+    background: #f1f1f1;
+
+
+}
+input:focus {
+    background-color: #ddd;
+    outline         : none;
+}
+.btn {
+    background-color: #0079ec;
+    color           : white;
+    padding         : 16px 20px;
+    border          : none;
+    cursor          : pointer;
+    width           : 100%;
+    margin-bottom   : 10px;
+    opacity         : 0.8;
+}
+
+.xCancel {
+    color      : red;
+    font-style : normal;
+    font-weight: 900;
+    float      : right;
+    cursor     : pointer;
+}
+
+.cancel {
+    background-color: red;
+}
